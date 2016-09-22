@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(../fonts/Nexa Bold.otf);
+    font-family: "Nexa Light";
+    src: url(../fonts/Nexa Light.otf)
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    margin: auto;
+    background-color: #f3e5d8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    color: #00d66c;
+    font-family: Nexa Bold, sans-serif;
+}
+
+p {
+    font-family: Nexa Light, sans-serif;
+    line-height: 1.5em;
+    font-weight: 900;
+    color: #606373;
+}
+
+article {
+    background-color: #FBF7F3;
+    padding: 1em 1em;
+    margin: 1em .5em;
+    border-radius: 2em;
+}
+
+.link {
+    color: white;
+    background-color: #00d66c;
+    text-decoration: none;
+    padding: .3em 1em .3em 1em;
+    border-radius: 2em;
+    box-shadow: inset 0 -.2875rem .0625rem #1e9162;
+    transition: background-color .5s;
+    border: none;
+}
+
+.link:hover {
+    background-color: #4DE298;
+}
+
+.link:focus {
+    background-color: #00c061;
+    box-shadow: inset 0 .2875rem .0625rem #1e9162;
+}
+
+.logo {
+    display: inline-block;
+    width: 4em;
+}
+
+.mainheader {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section > a {
+    text-decoration: none;
+}
+
+select {
+    font-size: .8em;
+}
+
+h4 {
+    margin-top: 1em;
+}
+
+.main {
+    padding-left: 5%;
+    width: 95%;
+}
+
+.aanmeldheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-size: 1em;
+    margin: .3em;
+    text-decoration: none;
+    margin-bottom: auto;
+    display: block;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    font-family: Nexa Light, sans-serif;
+}
+
+.artikelen {
+    width: 100%;
+}
+
+.inloggen {
+    margin-bottom: 1em;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+label {
+    font-family: Nexa Bold, sans-serif;
+    margin-top: .6em;
+}
+
+.headerfoto {
+    max-width: 100%;
+    display: none;
+}
+
+.uitgelicht {
+    display: none;
+}
+
+#bericht {
+    font-family: Nexa Bold, sans-serif;
+    color: red;
+}
+
+.gebruiker {
+    display: inline-block;
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.tekst-gebruiker {
+    display: inline-block;
+    position: absolute;
+    right: .8em;
+    top: .8em;
+}
+
+.gebruiker-tekst {
+    display: none;
+}
+
+.terug {
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 920px) {
+    article {
+        display: inline-block;
+        width: 44.4%;
+        vertical-align: top;
+    }
+    
+    .lijst {
+        margin: auto;
+    }
+    
+    .link {
+        margin-top: 1em;
+    }
+    
+    .aanmelden {
+        display: inline-block;
+    }
+    
+    .headerfoto {
+        display: block;
+        height: auto;
+        position: relative;
+    }
+    
+    .uitgelicht {
+        display: block;
+        float: right;
+        position: absolute;
+        right: 2%;
+        top: 20%;
+        background-color: rgba(255,255,255,0.9);
+        width: 50%;
+    }
+    
+    .gebruiker-tekst {
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding-bottom: 1em;
+    font-family: Nexa Bold;
+    color: #00d66c;
+    vertical-align: top;
+    margin-top: 1.1em;
+    }
+    
+    .verhaal {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .uitgelicht{
+        font-size: 1.2em;
+    }
+    
+}

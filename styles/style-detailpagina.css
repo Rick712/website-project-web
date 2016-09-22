@@ -1,0 +1,20 @@
+html {
+    font-family: sans-serif;
+}
+
+article {
+    font-size: 1.2em;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+p {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.alinea2 {
+    margin-bottom: 40%;
+}

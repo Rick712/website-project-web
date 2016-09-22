@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+article {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-left: 1%;
+}
