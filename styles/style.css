@@ -170,7 +170,22 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 920px) {
+fieldset {
+    text-decoration: none;
+    border: none;
+}
+
+legend {
+    color: #00d66c;
+    font-family: Nexa Bold;
+}
+
+.filter {
+    background-color: #00d66c;
+    margin: 0 0 3em 0;
+}
+
+@media screen and (min-width: 57.5em) {
     article {
         display: inline-block;
         width: 44.4%;
@@ -186,7 +201,9 @@ footer {
     }
     
     .aanmelden {
-        display: inline-block;
+        margin: 0 1em 0 5em;
+        vertical-align: top;
+        font-size: 1.3em;
     }
     
     .headerfoto {
@@ -200,7 +217,7 @@ footer {
         float: right;
         position: absolute;
         right: 2%;
-        top: 20%;
+        top: 15%;
         background-color: rgba(255,255,255,0.9);
         width: 50%;
     }
@@ -223,11 +240,21 @@ footer {
     footer {
         text-align: center;
     }
+    
+    .aanmeldheader {
+        display: inline-block;
+        vertical-align: top;
+        margin: 1.7em 0 0 0;
+    }
 }
 
-@media screen and (min-width: 1160px) {
-    .uitgelicht{
+@media screen and (min-width: 72.5em) {
+    .uitgelicht {
         font-size: 1.2em;
+    }
+    
+    article {
+        height: 13.3em;
     }
     
 }
